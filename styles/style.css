@@ -42,6 +42,7 @@
 .btn-primary {
     background-color: #4E47FF;
     color: white;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
     padding: 15px 36px;
@@ -132,6 +133,30 @@ nav ul li a {
 .site-main {
     background-color: #F5F8FF;
 }
+
+
+/* In Action styles */
+.in-action {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 115px 0;
+}
+.in-action-content {
+    width: 517px;
+}
+.in-action .section-title {
+    font-size: 42px;
+}
+.in-action .section-desc {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.in-action-pic {
+    border-radius: 48px;
+}
+
 
 /* Get in Touch styles */
 .get-in-touch {
