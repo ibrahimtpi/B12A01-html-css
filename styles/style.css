@@ -45,7 +45,7 @@
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    padding: 15px 36px;
+    padding: 14px 36px;
     border: 1px solid #4E47FF;
     border-radius: 10px;
     cursor: pointer;
@@ -126,7 +126,6 @@ nav ul li a {
 
 .banner-title {
     font-size: 65px;
-    font-weight: 700;
     margin-bottom: 35px;
 }
 
@@ -231,6 +230,37 @@ nav ul li a {
     color: #B3B3B3;
 }
 
+
+/* Focus Better styles */
+.focus-better {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+    padding: 70px 0;
+}
+.focus-better .section-title {
+    color: #000000;
+    font-size: 50px;
+    margin-bottom: 22px;
+}
+.focus-better .section-desc {
+    color: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.focus-better .btn-primary {
+    height: 48px;
+    font-weight: 600;
+}
+.focus-better .focus-better-pic {
+    width: 100%;
+    max-width: 840px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
 /* Get in Touch styles */
 .get-in-touch {
     display: flex;
@@ -286,7 +316,7 @@ footer {
 .footer-links {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 48px;
     align-items: center;
 }
 
