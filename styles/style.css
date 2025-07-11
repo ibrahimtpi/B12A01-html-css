@@ -29,7 +29,7 @@
   font-weight: 700;
   font-style: normal;
 }
-main, .header-content, .container {
+.header-content, .container {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -58,6 +58,11 @@ main, .header-content, .container {
 
 a {
     transition: color 0.3s ease-in-out;    
+}
+
+.section-title {
+    font-size: 38px;
+    color: #252432;
 }
 
 .text-center {
@@ -115,8 +120,6 @@ nav ul li a {
 
 /* Banner styles */
 .banner {
-    /* display: flex; */
-    /* justify-content: space-between; */
     padding: 158px 35px 150px;
 }
 
@@ -124,6 +127,48 @@ nav ul li a {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 35px;
+}
+
+.site-main {
+    background-color: #F5F8FF;
+}
+
+/* Get in Touch styles */
+.get-in-touch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 85px 0 85px;
+}
+.get-in-touch .section-title {
+    font-size: 97px;
+    width: 528px;
+}
+.get-in-touch form {
+    width: 497px;
+}
+
+.get-in-touch label {
+    font-weight: 600;
+}
+.get-in-touch input[type="text"], .get-in-touch input[type="email"], .get-in-touch textarea {
+    font-size: 20px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #D6DDED;
+}
+.get-in-touch textarea {
+    height: 135px;
+}
+.get-in-touch .btn-primary {
+    width: 100%;
+    height: 62px;
 }
 
 
