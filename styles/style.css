@@ -158,6 +158,31 @@ nav ul li a {
 }
 
 
+/* Joined Thousands styles */
+.joined-thousands {
+    background-color: rgba(78, 71, 255, 0.10);
+    border-radius: 24px;
+    padding: 50px 0;
+}
+.joined-thousands .section-title {
+    margin-bottom: 35px;
+}
+.joined-thousands .box-content {
+	display: flex;
+	justify-content: center;
+    gap: 0 160px;
+}
+.joined-thousands .box-title {
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+.joined-thousands .box-desc {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+
 /* Get in Touch styles */
 .get-in-touch {
     display: flex;
