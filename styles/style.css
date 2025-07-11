@@ -182,6 +182,54 @@ nav ul li a {
 }
 
 
+/* Our Users Say styles */
+.our-users-say {
+    padding: 130px 0;
+}
+.our-users-say .section-title {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+}
+.testimonial {
+    padding: 24px;
+    width: 365px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #F2EDED;
+}
+.testimonial .testimonial-title {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0 0;
+}
+.testimonial .testimonial-text {
+    color: #1E1E1E;
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.testimonial .author {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+}
+.testimonial .author .author-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.testimonial .author .author-name {
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 5px;
+}
+.testimonial .author .author-date {
+    color: #B3B3B3;
+}
 
 /* Get in Touch styles */
 .get-in-touch {
